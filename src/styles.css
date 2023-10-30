@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 3em 2em;
+}
+
+.post {
+  margin-top: 2em;
+  border-style: solid;
+  border-color: rgb(200, 198, 198);
+  padding: 1em;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.author-name {
+  color: blue;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.body {
+  margin-top: 0.5em;
+  font-size: 0.75em;
+}
